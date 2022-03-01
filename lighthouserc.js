@@ -1,7 +1,10 @@
 module.exports = {
-  ci: {
-    upload: {
-      target: 'temporary-public-storage',
-    },
-  },
-};
+  "ci": {
+    "upload": {
+      "basicAuth": {
+        "username": "myAdminUser",
+        "password": "LighthouseRocks!"
+      }
+    }
+  }
+}
