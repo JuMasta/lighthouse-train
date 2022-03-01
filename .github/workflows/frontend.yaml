@@ -1,11 +1,6 @@
 name: frontend build push
 
-on:
-  create:
-    tags:
-      - v1.*
-    paths:
-      - 'frontend/**'
+on: push
 
 
 
